@@ -1,0 +1,108 @@
+{
+    
+        "Carpetweeds_1": {
+            "description": "Carpetweeds are low-growing, mat-forming weeds.",
+            "effects": "Competes for resources, reduces crop yield.",
+            "medical_properties": "Generally not harmful.",
+            "prevention": "Mulching, pre-emergent herbicides.",
+            "pesticide": "Glyphosate, 2,4-D."
+        },
+        "Crabgrass_2": {
+            "description": "Crabgrass is a summer annual grassy weed.",
+            "effects": "Competes with turf and crops, difficult to control.",
+            "medical_properties": "Not harmful, can be forage.",
+            "prevention": "Pre-emergent herbicides, proper lawn care.",
+            "pesticide": "Dithiopyr, quinclorac."
+        },
+        "Eclipta_3":{
+            "description": "Eclipta is a herbaceous plant with white flowers.",
+            "effects": "Can be invasive in wet areas, competes with crops.",
+            "medical_properties": "Used in traditional medicine.",
+            "prevention": "Proper drainage, hand weeding.",
+            "pesticide":"2,4-D, MCPA."
+        },
+        "Goosegrass_4":{
+            "description": "Goosegrass is a tufted annual grass weed.",
+            "effects": "Forms dense mats, competes with turf and crops.",
+            "medical_properties": "Not harmful.",
+            "prevention":"Pre-emergent herbicides, proper lawn maintenance.",
+            "pesticide":"Pendimethalin, oxadiazon."
+        },
+        "Morningglory_5":{
+            "description": "Morningglory is a vining weed with trumpet-shaped flowers.",
+            "effects":"Smothers crops, competes for sunlight and nutrients.",
+            "medical_properties":"Some species have medicinal uses.",
+            "prevention":"Tillage, crop rotation.",
+            "pesticide":"Glyphosate, dicamba."
+        },
+        "Nutsedge_6":{
+            "description": "Nutsedge is a perennial weed with triangular stems.",
+            "effects":"Forms underground tubers, difficult to eradicate.",
+            "medical_properties":"Some species have edible tubers.",
+            "prevention":"Proper drainage, cultivation.",
+            "pesticide":"Sulfosulfuron, halosulfuron."
+        },
+        "PalmerAmaranth_7":{
+            "description":"PalmerAmaranth is a fast-growing, aggressive weed.",
+            "effects":"Highly competitive, reduces crop yield significantly.",
+            "medical_properties":"Not generally used medicinally.",
+            "prevention":"Crop rotation, pre-emergent herbicides.",
+            "pesticide":"Glufosinate, dicamba."
+        },
+        "Prickly Sida_8":{
+            "description":"Prickly Sida is a shrubby weed with small yellow flowers.",
+            "effects":"Forms dense thickets, competes with crops.",
+            "medical_properties":"Used in traditional medicine.",
+            "prevention":"Tillage, crop rotation.",
+            "pesticide":"2,4-D, dicamba."
+        },
+        "Purslane_9":{
+            "description":"Purslane is a succulent weed with fleshy leaves.",
+            "effects":"Competes with crops, can be invasive.",
+            "medical_properties":"Edible, rich in nutrients.",
+            "prevention":"Mulching, hand weeding.",
+            "pesticide":"Glyphosate, glufosinate."
+        },
+        "Ragweed_10":{
+            "description":"Ragweed is a common allergenic weed.",
+            "effects":"Causes hay fever, competes with crops.",
+            "medical_properties":"Causes allergies.",
+            "prevention":"Mowing, pre-emergent herbicides.",
+            "pesticide":"2,4-D, dicamba."
+        },
+        "Sicklepod_11":{
+            "description":"Sicklepod is a legume weed with sickle-shaped pods.",
+            "effects":"Competes with crops, reduces yield.",
+            "medical_properties":"Not generally used medicinally.",
+            "prevention":"Crop rotation, tillage.",
+            "pesticide":"2,4-DB, dicamba."
+        },
+        "SpottedSpurge_12":{
+            "description":"SpottedSpurge is a low-growing weed with milky sap.",
+            "effects":"Forms mats, competes with turf and crops.",
+            "medical_properties":"Can cause skin irritation.",
+            "prevention":"Mulching, hand weeding.",
+            "pesticide":"Glyphosate, 2,4-D."
+        },
+        "SpurredAnoda_13":{
+            "description":"SpurredAnoda is a weed with heart-shaped leaves.",
+            "effects":"Competes with crops, reduces yield.",
+            "medical_properties":"Not generally used medicinally.",
+            "prevention":"Crop rotation, tillage.",
+            "pesticide":"Glyphosate, dicamba."
+        },
+        "Swinecress_14":{
+            "description":"Swinecress is a low-growing weed with small flowers.",
+            "effects":"Competes with turf and crops.",
+            "medical_properties":"Not generally used medicinally.",
+            "prevention":"Mulching, hand weeding.",
+            "pesticide":"2,4-D, glyphosate."
+        },
+        "Waterhemp_15":{
+            "description":"Waterhemp is a fast-growing, herbicide-resistant weed.",
+            "effects":"Highly competitive, reduces crop yield significantly.",
+            "medical_properties":"Not generally used medicinally.",
+            "prevention":"Crop rotation, pre-emergent herbicides.",
+            "pesticide":"Glufosinate, dicamba."
+        }
+    }

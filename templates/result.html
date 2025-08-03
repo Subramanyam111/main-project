@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #a8edea, #fed6e3); /* Soft gradient background */
+            color: #333;
+        }
+
+        .heading-container {
+            margin: 40px auto;
+            position: relative;
+            width: fit-content;
+        }
+
+        .main-heading {
+            font-size: 3em;
+            padding: 10px 25px;
+            border-radius: 60px;
+            background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradient heading */
+            color: white;
+            display: inline-block;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+            position: relative;
+            animation: flying 6s linear infinite alternate;
+        }
+        .sub-heading {
+            font-size: 1.3em;
+            margin-top: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 12px 25px;
+            border-radius: 25px;
+            display: inline-block;
+            color: #34495e;
+        }
+
+        .img-container {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 30px auto;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .weed-info {
+            text-align: left;
+            width: 75%;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.85); /* Semi-transparent white weed info */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+            line-height: 1.7;
+        }
+
+        .weed-info h2 {
+            color: #4a6572;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #a1c4fd;
+            padding-bottom: 12px;
+        }
+
+        .weed-info p {
+            margin-bottom: 18px;
+        }
+
+        .weed-info strong {
+            font-weight: 600;
+            color: #3f72af;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient button */
+            color: white;
+            text-decoration: none;
+            border-radius: 35px;
+            margin: 0 15px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-weight: 500;
+        }
+
+        .button:hover {
+            background: linear-gradient(to right, #00f2fe, #4facfe); /* Reversed gradient on hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-container">
+        <div class="main-heading">Smart Agriculture</div>
+        <div class="sub-heading">Machine Learning and Deep Learning for Advanced Weed Detection and Crop Quality Enhancement in Agriculture</div>
+    </div>
+
+    <div class="img-container">
+        <img src="{{ image }}" alt="Uploaded Image">
+    </div>
+
+    <h2>Detected Weed: {{ label }}</h2>
+    <div class="weed-info">
+        <h2>Weed Information</h2>
+        {% if weed_info %}
+            <p><strong>Description:</strong> {{ weed_info.description }}</p>
+            <p><strong>Effects:</strong> {{ weed_info.effects }}</p>
+            <p><strong>Medical Properties:</strong> {{ weed_info.medical_properties }}</p>
+            <p><strong>Prevention:</strong> {{ weed_info.prevention }}</p>
+            <p><strong>Pesticide Recommendations:</strong> {{ weed_info.pesticide }}</p>
+        {% else %}
+            <p>Weed information not available.</p>
+        {% endif %}
+    </div>
+
+    <div class="button-container">
+        <a href="{{ image }}" class="button" target="_blank">View Image in Full Size</a>
+        <a href="/" class="button">Back</a>
+        <a href="http://127.0.0.1:8000/ViewYourProfile/" class="button">Home</a>
+    </div>
+</body>
+</html>
